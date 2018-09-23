@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <SyrLightRadiusSettingsCategory>Light Radius</SyrLightRadiusSettingsCategory>
+
+  <SyrLightRadius_innerLightDesc>Show inner light radius</SyrLightRadius_innerLightDesc>
+  <SyrLightRadius_innerLightTooltip>Displays the radius at which the light level is sufficient to not be considered "dark" (>25%).</SyrLightRadius_innerLightTooltip>
+  <SyrLightRadius_outerLightDesc>Show outer light radius</SyrLightRadius_outerLightDesc>
+  <SyrLightRadius_outerLightTooltip>Displays the radius at which there is any light from the light source (>0%).</SyrLightRadius_outerLightTooltip>
+
+</LanguageData>
