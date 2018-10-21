@@ -7,5 +7,7 @@
   <SyrLightRadius_innerLightTooltip>Displays the radius at which the light level is sufficient to not be considered "dark" (>25%).</SyrLightRadius_innerLightTooltip>
   <SyrLightRadius_outerLightDesc>Show outer light radius</SyrLightRadius_outerLightDesc>
   <SyrLightRadius_outerLightTooltip>Displays the radius at which there is any light from the light source (>0%).</SyrLightRadius_outerLightTooltip>
+  <SyrLightRadius_WallLightRadius>Wall Light Radius</SyrLightRadius_WallLightRadius>
+  <SyrLightRadius_WallLightRadiusTooltip>Select the same radius you entered for the wall light radius mod (default: 8)</SyrLightRadius_WallLightRadiusTooltip>
 
 </LanguageData>

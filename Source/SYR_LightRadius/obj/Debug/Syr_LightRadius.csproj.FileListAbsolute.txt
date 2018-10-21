@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_LightRadius\Source\SYR_LightRadius\bin\Debug\Syr_LightRadius.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_LightRadius\Source\SYR_LightRadius\bin\Debug\Syr_LightRadius.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_LightRadius\Source\SYR_LightRadius\bin\Debug\0Harmony.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_LightRadius\Source\SYR_LightRadius\obj\Debug\Syr_LightRadius.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_LightRadius\Source\SYR_LightRadius\obj\Debug\Syr_LightRadius.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_LightRadius\Source\SYR_LightRadius\obj\Debug\Syr_LightRadius.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_LightRadius\Source\SYR_LightRadius\obj\Debug\Syr_LightRadius.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SYR_LightRadius\Source\SYR_LightRadius\obj\Debug\Syr_LightRadius.pdb
