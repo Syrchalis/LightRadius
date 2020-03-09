@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +17,7 @@ namespace Syr_LightRadius
         public LightRadiusCore(ModContentPack content) : base(content)
         {
             settings = GetSettings<LightRadiusSettings>();
-            var harmony = HarmonyInstance.Create("Syrchalis.Rimworld.LightRadius");
+            var harmony = new Harmony("Syrchalis.Rimworld.LightRadius");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
         public override string SettingsCategory() => "SyrLightRadiusSettingsCategory".Translate();
