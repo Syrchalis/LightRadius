@@ -30,17 +30,6 @@ namespace Syr_LightRadius
                         GenDraw.DrawRadiusRing(__instance.Position, glower.Props.glowRadius * 0.91f - 0.5f);
                     }
                 }
-                else if (__instance.def.defName.Contains("Lighting_MURWallLight"))
-                {
-                    if (LightRadiusSettings.innerLight)
-                    {
-                        GenDraw.DrawRadiusRing(__instance.Position + new IntVec3(0, 0, 1).RotatedBy(__instance.Rotation), LightRadiusSettings.wallLightRadius * 0.91f - 2f);
-                    }
-                    if (LightRadiusSettings.outerLight)
-                    {
-                        GenDraw.DrawRadiusRing(__instance.Position + new IntVec3(0, 0, 1).RotatedBy(__instance.Rotation), LightRadiusSettings.wallLightRadius * 0.91f - 0.5f);
-                    }
-                }
             }
         }
     }
@@ -67,20 +56,6 @@ namespace Syr_LightRadius
                         {
                             GenDraw.DrawRadiusRing(UI.MouseCell(), glowerProps.glowRadius * 0.91f - 0.5f);
                         }
-                        
-                    }
-                    else if (thingDef.defName.Contains("Lighting_MURWallLight"))
-                    {
-                        Rot4 rotation = Traverse.Create(__instance).Field("placingRot").GetValue<Rot4>();
-                        if (LightRadiusSettings.innerLight)
-                        {
-                            GenDraw.DrawRadiusRing(UI.MouseCell() + new IntVec3(0, 0, 1).RotatedBy(rotation), LightRadiusSettings.wallLightRadius * 0.91f - 2f);
-                        }
-                        if (LightRadiusSettings.outerLight)
-                        {
-                            GenDraw.DrawRadiusRing(UI.MouseCell() + new IntVec3(0, 0, 1).RotatedBy(rotation), LightRadiusSettings.wallLightRadius * 0.91f - 0.5f);
-                        }
-                        
                     }
                 }
             }

@@ -1,5 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Syrchalis' Additions\Assemblies\SYR_Additions.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Syrchalis' Additions\Source\SYR_Additions\obj\Release\SYR_Additions.csprojAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Syrchalis' Additions\Source\SYR_Additions\obj\Release\SYR_Additions.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Syrchalis' Additions\Source\SYR_Additions\obj\Release\SYR_Additions.csproj.CopyComplete
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Syrchalis' Additions\Source\SYR_Additions\obj\Release\SYR_Additions.dll

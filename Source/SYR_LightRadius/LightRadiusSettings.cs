@@ -21,7 +21,7 @@ namespace Syr_LightRadius
             base.ExposeData();
             Scribe_Values.Look<bool>(ref innerLight, "SyrLightRadius_innerLight", true, true);
             Scribe_Values.Look<bool>(ref outerLight, "SyrLightRadius_outerLight", false, true);
-            Scribe_Values.Look<int>(ref wallLightRadius, "SyrLightRadius_wallLight", 8, false);
+            //Scribe_Values.Look<int>(ref wallLightRadius, "SyrLightRadius_wallLight", 8, false);
         }
     }
 }

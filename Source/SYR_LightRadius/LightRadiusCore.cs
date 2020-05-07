@@ -31,9 +31,9 @@ namespace Syr_LightRadius
                 listing_Standard.CheckboxLabeled("SyrLightRadius_innerLightDesc".Translate(), ref LightRadiusSettings.innerLight, ("SyrLightRadius_innerLightTooltip".Translate()));
                 listing_Standard.Gap(12f);
                 listing_Standard.CheckboxLabeled("SyrLightRadius_outerLightDesc".Translate(), ref LightRadiusSettings.outerLight, ("SyrLightRadius_outerLightTooltip".Translate()));
-                listing_Standard.Gap(12f);
-                listing_Standard.Label("SyrLightRadius_WallLightRadius".Translate() + " : " + LightRadiusSettings.wallLightRadius, tooltip: "SyrLightRadius_WallLightRadiusTooltip".Translate());
-                LightRadiusSettings.wallLightRadius = (int)listing_Standard.Slider(LightRadiusSettings.wallLightRadius, 1, 15);
+                //listing_Standard.Gap(12f);
+                //listing_Standard.Label("SyrLightRadius_WallLightRadius".Translate() + " : " + LightRadiusSettings.wallLightRadius, tooltip: "SyrLightRadius_WallLightRadiusTooltip".Translate());
+                //LightRadiusSettings.wallLightRadius = (int)listing_Standard.Slider(LightRadiusSettings.wallLightRadius, 1, 15);
                 listing_Standard.End();
                 settings.Write();
             }
